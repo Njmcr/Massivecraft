@@ -1,6 +1,6 @@
 import { ActionRowBuilder, ButtonBuilder, ButtonStyle, EmbedBuilder, SelectMenuBuilder, AttachmentBuilder } from "discord.js";
 
-var commandsList = '+player [Player] \n+faction [Faction] \n+members [Faction] \n+kingdom [Kingdom] \n+flags open \n+flags protected \n+flags altfac \n+worlds'
+var commandsList = '+player [Player] \n+faction [Faction] \n+members [Faction] \n+kingdom [Kingdom] \n+worlds'
 
 export function commandsEmbed() {
    return new EmbedBuilder()
